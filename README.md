@@ -1,105 +1,85 @@
 <!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EthioGlobalHub.com</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EthioGlobalHub - Entertainment, TikToks, YouTube videos, articles and more.">
+  <title>EthioGlobalHub</title>
   <style>
     body {
-      font-family: 'Inter', sans-serif;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
       margin: 0;
-      background: #fdfdfd;
-      color: #222;
+      padding: 0;
     }
     header {
-      background: #002147;
+      background-color: #2c3e50;
       color: white;
-      padding: 1rem 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      padding: 20px;
+      text-align: center;
     }
-    header img {
-      height: 50px;
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #34495e;
     }
     nav a {
       color: white;
-      margin-left: 1rem;
+      padding: 14px 20px;
       text-decoration: none;
-      font-weight: bold;
+      display: block;
     }
-    .hero {
-      background: url('https://via.placeholder.com/1200x400') center/cover no-repeat;
-      color: white;
-      text-align: center;
-      padding: 4rem 2rem;
+    nav a:hover {
+      background-color: #1abc9c;
     }
-    .section {
-      padding: 2rem;
+    main {
+      padding: 20px;
     }
-    .section h2 {
-      color: #ff9900;
+    section {
+      background-color: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1rem;
-    }
-    footer {
-      background: #002147;
-      color: white;
-      text-align: center;
-      padding: 1rem;
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      border-radius: 10px;
     }
   </style>
 </head>
-<body>
-  <header>
-    <img src="logo.png" alt="EthioGlobalHub Logo" />
-    <nav>
-      <a href="#comedies">Comedies</a>
-      <a href="#tiktoks">TikToks</a>
-      <a href="#youtube">YouTube</a>
-      <a href="#articles">Articles</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>  <section class="hero">
-    <h1>Welcome to EthioGlobalHub</h1>
-    <p>ቀልድ፣ ቲክቶክ፣ ቪዲዮ እና ጽሁፎች በአንድ ቦታ።</p>
-  </section>  <section id="comedies" class="section">
-    <h2>Funny Comedies</h2>
-    <div class="grid">
-      <div>🤣 Comedy Clip 1</div>
-      <div>😂 Comedy Clip 2</div>
-      <div>😆 Comedy Clip 3</div>
-    </div>
-  </section>  <section id="tiktoks" class="section">
-    <h2>TikTok Highlights</h2>
-    <div class="grid">
-      <div>📱 TikTok Video 1</div>
-      <div>🎵 TikTok Video 2</div>
-      <div>🔥 TikTok Video 3</div>
-    </div>
-  </section>  <section id="youtube" class="section">
-    <h2>YouTube Videos</h2>
-    <div class="grid">
-      <div>🎥 Vlog 1</div>
-      <div>📺 Vlog 2</div>
-      <div>📹 Vlog 3</div>
-    </div>
-  </section>  <section id="articles" class="section">
-    <h2>Latest Articles</h2>
-    <div class="grid">
-      <div>📰 Blog 1: How TikTok Changed Ethiopia</div>
-      <div>📖 Blog 2: Funniest Moments of 2025</div>
-      <div>📝 Blog 3: The Rise of Amhara Vlogs</div>
-    </div>
-  </section>  <section id="contact" class="section">
-    <h2>Contact Us</h2>
-    <p>Email: birukone01@gmail.com</p>
-    <p>Follow us on social media @EthioGlobalHub</p>
-  </section>  <footer>
-    <p>&copy; 2025 EthioGlobalHub.com | All Rights Reserved</p>
-  </footer>
-</body>
+<body><header>
+  <h1>Welcome to EthioGlobalHub</h1>
+  <p>Entertainment | TikToks | YouTube | Articles</p>
+</header><nav>
+  <a href="#home">Home</a>
+  <a href="#videos">Videos</a>
+  <a href="#music">Music</a>
+  <a href="#articles">Articles</a>
+  <a href="#contact">Contact</a>
+</nav><main>
+  <section id="videos">
+    <h2>Yesterday's Featured Video</h2>
+    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen title="ADWA: Africa’s Victory!"></iframe>
+    <p><strong>Title:</strong> ADWA: Africa’s Victory!<br>
+       <strong>Description:</strong> This video tells the inspiring story of the Battle of Adwa, where Ethiopia triumphed over colonial forces — a symbol of African pride and independence.</p>
+  </section>  <section id="music">
+    <h2>🎵 Teddy Afro Music Spotlight</h2><h3>Tikur Sew</h3>
+<iframe src="https://www.youtube.com/embed/1k1tGzQ-U3U" allowfullscreen title="Teddy Afro - Tikur Sew"></iframe>
+
+<h3>Mar Eske Twaf</h3>
+<iframe src="https://www.youtube.com/embed/9ErnhjvPz9A" allowfullscreen title="Teddy Afro - Mar Eske Twaf"></iframe>
+
+<h3>Demo Be Abay</h3>
+<iframe src="https://www.youtube.com/embed/Ek5kzUBtJtQ" allowfullscreen title="Teddy Afro - Demo Be Abay"></iframe>
+
+<h3>Habesha</h3>
+<iframe src="https://www.youtube.com/embed/yjvqgqlVjzY" allowfullscreen title="Teddy Afro - Habesha"></iframe>
+
+  </section>  <section id="about">
+    <h2>About EthioGlobalHub</h2>
+    <p>EthioGlobalHub is your go-to platform for entertainment, culture, TikToks, YouTube content, and insightful articles — all in both Amharic and English.</p>
+  </section>
+</main></body>
 </html>
